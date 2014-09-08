@@ -1,0 +1,72 @@
+.root{
+    -fx-padding:0;
+    -fx-backgfdround-color: radial-gradient(center 70% 5%, radius 60%, #767a7b,#2b2f32);
+    -fx-background-repeat: repeat;
+    -fx-background-position: left top;
+}
+
+
+.label{
+   -fx-text-fill: #c4d8de;
+}
+
+.button {
+    -fx-background-color:
+		#0174DF, #000000;
+    -fx-padding:0;
+    -fx-background-insets: 0,1,2,3;
+    -fx-background-radius: 1;
+    -fx-text-fill: white;
+    -fx-font-size: 20px;
+}
+.button Text {
+    -fx-effect: dropshadow( one-pass-box , rgba(0,0,0,0.8) , 0, 0.0 , 0 , 1);
+}
+.button:hover {
+    -fx-background-color: #0174DF;
+}
+.button:FOCUS {
+    -fx-background-color: #5929B9;
+}
+#trigBtn{
+	    -fx-font-size: 17px;
+}
+#powBtn, #powBtnrad{
+	    -fx-font-size: 17px;
+}
+#powBtnrad{
+	    -fx-font-size: 15px;
+}
+
+
+#mainText {
+	-fx-padding:0;
+	-fx-background-color:transparent;
+	-fx-font-size: 30px;
+   /* -fx-font-family: "digital-7"; */
+    -fx-text-fill: white;
+
+}
+.text-field{
+	-fx-padding:0;
+	-fx-background-color:transparent;
+	-fx-font-size: 10px;
+    -fx-text-fill: white;
+}
+#textPane{
+	-fx-background-color: black;
+    -fx-border-color: #0174DF;
+    -fx-border-width: 1;	
+}
+
+#topBar{
+	-fx-background-color: black;
+    -fx-border-color: #0174DF;
+    -fx-border-width: 1;	
+}
+#closeBtn:hover {
+	-fx-background-color: #B90000;
+	-fx-text-fill: black;
+}
+
+
